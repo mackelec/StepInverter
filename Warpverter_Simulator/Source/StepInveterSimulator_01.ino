@@ -320,7 +320,7 @@ void fill_dacTable()
 {
   for (int i=0;i<256;i++)
   {
-    dacTable[i] = 2048 - (inputTable[i]/2); 
+    dacTable[i] = 2048 + (inputTable[i]/2); 
   }
 }
 
