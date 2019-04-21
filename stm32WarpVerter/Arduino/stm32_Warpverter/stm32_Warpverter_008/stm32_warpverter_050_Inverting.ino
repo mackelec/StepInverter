@@ -350,12 +350,12 @@ void mains_sync()
   if (abs(phase_error) < 5 && abs(new_delta) < 5)
     {
       p_lock = 1;
-      //sbi(PORTD,4);              // tell world I think I'm in sync. drive relay, light LED, whatever
+      setRelay;              // tell world I think I'm in sync. drive relay, light LED, whatever
     }
   else
     {
       p_lock=0;
-      //cbi(PORTD,4);
+      clrRelay;
     }
   }
 
