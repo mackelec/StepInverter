@@ -67,8 +67,12 @@ bool  ledState = false;
 void setup() 
 {
   SerialUSB.begin(2000000);
+  int cnt=0;
   while (!SerialUSB) {
     ; // wait for serial port to connect. Needed for native USB port only
+    delay(10);
+    cnt ++;
+    if (cnt > 300) break;
   }
   analogWriteResolution(12);
   analogWrite(DAC0,0);
