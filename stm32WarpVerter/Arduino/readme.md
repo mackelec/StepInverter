@@ -14,6 +14,7 @@ The software for the stm32_Warpverter is separated into two projects.
   *  Most features are configurable - mostly in the Print_Tables software.
 
 * # Print_Tables project.  
+  *  The latest version is [print_Tables_2c](https://github.com/mackelec/StepInverter/tree/master/stm32WarpVerter/Arduino/Print_Tables/print_Tables_02).
   *  The objective of this software is to take the User Settings and create "Tables" in the form of arrays.  
   *  The USER_Settings tab holds various setting that may be adjusted.  
   *  Upload and run the program on the BluePill.  
