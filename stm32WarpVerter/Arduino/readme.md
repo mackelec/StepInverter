@@ -8,7 +8,7 @@ The software for the stm32_Warpverter is separated into two projects.
   * This is the software which runs the stm32_Warpverter.  
   * The latest version is [stm32_warpverter_009](https://github.com/mackelec/StepInverter/tree/master/stm32WarpVerter/Arduino/stm32_Warpverter/stm32_Warpverter_009)
   *  This software runs on stm32F103C8 "Blue Pill" and the [stm32_Warpverter PCB](https://github.com/mackelec/StepInverter/tree/master/stm32WarpVerter/PCB).
-  *  Make sure tables are created by the Print_Tables Project.  
+  *  The STM32 BluePill has a generous Flash Rom capacity - notional 64k but most seem to have 128k. This software makes extensive use of pre-calculated lookup tables making full use of available Flash Rom..  
   *  The tables are pasted into `LookupTables` tab.  
   *  On first execution of the software - Use the Serial monitor to ensure the tables are the right size.
 
