@@ -22,3 +22,16 @@ The software for the stm32_Warpverter is separated into two projects.
   *  From the Serial Monitor the array data is copied and pasted into the stm32_Warpverter project.
   
 
+## Features
+
+* This software provides the functionality to acheive Tony's "WarpSpeed" Warpverter; a low distortion, four transformer, very low frequency, pure sine wave inverter.
+* Open loop control of output voltage based on input voltage and input current.  
+* Two 10k thermister inputs and corresponding PWM FAN outputs.  Fully configurable temperatures and control method: modulating PWM or Bang-Bang.
+* Seperate ON and OFF inputs.  Off input can be used as external Fault input.
+* Bi-Colour LED for ON-OFF status.
+* InputCurrent - Fan function.  Two independant Input Current thresholds - when met will operate the two corresponding FANS. 
+* Under and Over Input Voltage shut downs (configurable).
+* Over Current shut down .
+* 50Hz / 60Hz configurable. 
+* External Syncronising input.  Using Poida's mains sync routine.  Should sync with other warpVerters accurately.
+* 50Hz (60Hz) pulse output (approx 20uSec) will ensure accurate syncronising with other warpVerters.
