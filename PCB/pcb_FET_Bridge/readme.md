@@ -17,3 +17,10 @@ This PCB can be used as a Full H-Bridge or Half H-Bridge board.  Fet Driver boar
  -  Fill separation increased to 40 mil.
  
  ![FBF_201907](https://github.com/mackelec/StepInverter/blob/master/images/FBF_201907_small.png)
+
+
+ -  #### FBF_4Pin_201907
+ -  Driver board connectors have been changed to 4 pin connectors.
+ -  [Zip - Gerbers, Cad Files FBF_$pin_201907](https://github.com/mackelec/StepInverter/blob/master/PCB/pcb_FET_Bridge/FullBridgeFet_4pin_201907_Complete.zip)
+ 
+ ![FBF_4Pin_201907](https://github.com/mackelec/StepInverter/blob/master/images/FBF_4pin_201907_small.png)
