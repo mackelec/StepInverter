@@ -1,7 +1,7 @@
 
 #  Full Bridge Driver Board (201907-A)
 
-![FullBridgeDriverBoard](https://github.com/mackelec/StepInverter/blob/master/images/FullBridgeDriver_201907_Overlay.png)
+![FullBridgeDriverBoard](https://github.com/mackelec/StepInverter/blob/master/images/FullBridgeDriver_201907A_Overlay_small.png)
 
 
 #  Half Bridge Driver Board (201907)
