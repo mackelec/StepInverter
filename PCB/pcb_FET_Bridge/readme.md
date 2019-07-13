@@ -18,4 +18,4 @@ This PCB can be used as a Full H-Bridge or Half H-Bridge board.  Fet Driver boar
  -  [Zip - Gerbers, Cad Files FBF_4pin_201907](https://github.com/mackelec/StepInverter/blob/master/PCB/pcb_FET_Bridge/FullBridgeFet_4pin_201907A_complete.zip)
  -  Should be compatible with 2 Pin Driver Board.
  
- ![FBF_4Pin_201907-A](https://github.com/mackelec/StepInverter/blob/master/images/FullBridgeDriver_201907A_Overlay_small.png)
+ ![FBF_4Pin_201907-A](https://github.com/mackelec/StepInverter/blob/master/images/FBF_4pin_201907A_overlay_small.png)
